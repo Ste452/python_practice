@@ -1,0 +1,6 @@
+print("Hello")
+print("\tPython")
+print("\t\tI will dominated you")
+print("Languages:\n\tPython\n\tC\n\tJava\n\tJavaScript")
+print("\t" + "\"Full Stack Developer\"")
+print("\n" + "\\" + "(**)" + "\\")
