@@ -4,4 +4,6 @@
 
 value = 1
 for value in range(value, 21):
-    print(value)
+    
+    if (value % 2) != 0 :
+        print(value)
