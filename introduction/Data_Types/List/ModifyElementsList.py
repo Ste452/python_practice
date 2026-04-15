@@ -60,3 +60,5 @@ too_expensive = "Ducati"
 motorcycles.remove(too_expensive)
 print("\nThe " + too_expensive + " is too expensive for me.")
 print(motorcycles)
+
+print(motorcycles[3])

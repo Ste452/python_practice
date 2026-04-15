@@ -38,3 +38,8 @@ print(" We invite you, to participate at our dinner.\n")
 print("Dinner ended, with no guests.")
 del listDinnerGuest[0:2]
 print(listDinnerGuest)
+
+listDinnerGuest.reverse()
+listDinnerGuest.sorted()
+listDinnerGuest.sort()
+len(listDinnerGuest)
