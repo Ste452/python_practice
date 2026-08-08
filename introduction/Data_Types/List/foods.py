@@ -15,7 +15,10 @@ print(my_foods)
 print("My friend's favorite foods are:")
 print(friend_foods)
 
-print(f"\nThe first three items in the list are: ${my_foods[-3:]}")
+print(f"\nThe three middle items in the list are: ${my_foods[1:3]}")
+
+print(f"\nThe first three items in the list are: ${my_foods[:3]}")
+print(f"\nThe last three items in the list are: ${my_foods[-3:]}")
 
 """ 
 
@@ -23,7 +26,7 @@ Test:
 
 my_foods = ["pizza", "falafel", "carrot cake"]
 
-#This not works:
+# This not works:
 
 friend_foods = my_foods
 
